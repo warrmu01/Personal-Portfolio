@@ -50,7 +50,7 @@ export default function Example() {
 								<span className="mt-4 text-l text-center duration-1000 text-zinc-400 group-hover:text-zinc-200">
 									{s.label}
 								</span>
-								<ul className="mt-8 ml-5 text-sm lg:text-base text-zinc-400 group-hover:text-zinc-200 list-disc list-inside">
+								<ul className="mt-8 ml-5 text-sm md:text-base text-zinc-400 group-hover:text-zinc-200 list-disc list-inside">
 									<li className="mb-2">{s.Infopoint1}</li>
 									<li className="mb-2">{s.Infopoint2}</li>
 									<li className="mb-2">{s.Infopoint3}</li>
