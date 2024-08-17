@@ -16,7 +16,7 @@ const socials = [
 	{
 		href: "mailto:Mugheeswarraich11@gmail.com",
 		label: "Sodexo",
-		handle: "Office Administrative Student Assistant",
+		handle: "Office Student Assistant",
 		Infopoint1 : "Reviewed and provided constructive feedback on colleagues' research, which assisted them in improving the quality and accuracy of their work.",
 		Infopoint2 : "Conducted comprehensive research, sourced, and meticulously cleaned and organized data records pertaining to corporations and investment vehicles, ensuring data integrity and reliability.",
 		Infopoint3 : "Enhanced automation, efficiency, and decision-making processes for clients by continuously refining and expanding both new and existing datasets, leading to improved operational effectiveness.",
@@ -24,7 +24,7 @@ const socials = [
 	{
 		href: "https://github.com/warrmu01",
 		label: "Luther College",
-		handle: "Information Technology Technician",
+		handle: "IT Technician",
 		Infopoint1 : "Review and provide constructive feedback on colleagues' research, which assisted them in improving the quality and accuracy of their work.",
 		Infopoint2 : "Conducted comprehensive research, sourced, and meticulously cleaned and organized data records pertaining to corporations and investment vehicles, ensuring data integrity and reliability.",
 		Infopoint3 : "Enhanced automation, efficiency, and decision-making processes for clients by continuously refining and expanding both new and existing datasets, leading to improved operational effectiveness.",
