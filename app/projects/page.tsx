@@ -60,7 +60,7 @@ export default function Example() {
 	  <div className="bg-gradient-to-tl from-green-900/0 via-green-900 to-green-900/0">
 		<Navigation />
 		<div className="container flex items-start justify-center min-h-screen px-4 mx-auto">
-		  <div className="flex flex-col w-full gap-8 mx-auto mt-24 sm:mt-15 mb-20 lg:gap-16">
+		  <div className="flex flex-col w-full gap-8 mx-auto mt-32 sm:mt-15 mb-20 lg:gap-16">
 			{projects.map((s) => (
 			  <Link key={s.handle} href={s.href} passHref>
 				<div className="block cursor-pointer">
