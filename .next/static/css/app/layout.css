@@ -764,6 +764,12 @@ video {
 .mt-8 {
   margin-top: 2rem;
 }
+.mt-20 {
+  margin-top: 5rem;
+}
+.mt-24 {
+  margin-top: 6rem;
+}
 .block {
   display: block;
 }
@@ -903,6 +909,9 @@ video {
 }
 .cursor-default {
   cursor: default;
+}
+.cursor-pointer {
+  cursor: pointer;
 }
 .resize {
   resize: both;
@@ -1417,22 +1426,6 @@ video {
   }
 }
 @media (min-width: 1024px) {
-
-  .lg\:h-96 {
-    height: 24rem;
-  }
-
-  .lg\:h-80 {
-    height: 20rem;
-  }
-
-  .lg\:h-72 {
-    height: 18rem;
-  }
-
-  .lg\:h-64 {
-    height: 16rem;
-  }
 
   .lg\:h-56 {
     height: 14rem;
