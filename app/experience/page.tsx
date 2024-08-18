@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/experiencecard";
 
-const socials = [
+const experiences = [
 	{
 		href: "https://www.linkedin.com/in/mughees-warraich/",
 		label: "Kingland",
@@ -37,7 +37,7 @@ export default function Example() {
 			<Navigation />
 			<div className="container flex items-center justify-center min-h-screen px-4 mx-auto">
 				<div className="flex flex-col w-full gap-8 mx-auto mt-32 sm:mt-35 mb-20 lg:gap-16">
-					{socials.map((s) => (
+					{experiences.map((s) => (
 						<Card key={s.handle}>
 							<span
 								className="absolute w-px h-2/3 bg-gradient-to-b from-zinc-500 via-zinc-500/50 to-transparent"
