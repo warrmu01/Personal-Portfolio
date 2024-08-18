@@ -20,7 +20,7 @@ const projects = [
 	},
 	{
 		href: "https://github.com/warrmu01",
-		label: "Meeting Scheduler for Fitness Trainers ",
+		label: "Meeting Scheduler for Trainers ",
 		handle: "Next.js | Typescript | Twilio | appwrite",
 		Infopoint1 : "Review and provide constructive feedback on colleagues' research, which assisted them in improving the quality and accuracy of their work.",
 
