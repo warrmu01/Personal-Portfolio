@@ -33,6 +33,13 @@ const projects = [
 
 	},
 	{
+		href: "https://sufyanpackages.com/",
+		label: "Sufyan Packages",
+		handle: "HTML | Javascript | CSS",
+		Infopoint1 : "Review and provide constructive feedback on colleagues' research, which assisted them in improving the quality and accuracy of their work.",
+
+	},
+	{
 		href: "https://github.com/warrmu01/Credit-Card-Fraud-Detection-Final-Project",
 		label: "Credit Card Fraud Detection Project",
 		handle: "Scikit-Learn | XGBoost | Deep Neural Networks | Python",
