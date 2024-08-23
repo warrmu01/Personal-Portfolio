@@ -9,55 +9,55 @@ const projects = [
 		href: "https://github.com/warrmu01/ARC-fantasy-League",
 		label: "ARC Soccer Fantasy League",
 		handle: "Flask | Python | HTML | CSS | Javascript | SQL | Tailwind",
-		Infopoint1 : "Review and provide constructive feedback on colleagues' research, which assisted them in improving the quality and accuracy of their work.",
+		Infopoint1 : "Designed a web application to manage and display player data for a fantasy soccer league.",
 	},
 	{
 		href: "https://magician.luther.edu",
 		label: "Technology Help Desk Magician",
 		handle: "Flask | Python | HTML | CSS | Javascript",
-		Infopoint1 : "Review and provide constructive feedback on colleagues' research, which assisted them in improving the quality and accuracy of their work.",
+		Infopoint1 : "Created a tool to manage help desk requests and enhance security compliance.",
 
 	},
 	{
 		href: "https://github.com/warrmu01",
 		label: "Meeting Scheduler for Trainers ",
 		handle: "Next.js | Typescript | Twilio | appwrite",
-		Infopoint1 : "Review and provide constructive feedback on colleagues' research, which assisted them in improving the quality and accuracy of their work.",
+		Infopoint1 : "Built a scheduling platform for fitness trainers with automated notifications.",
 
 	},
 	{
 		href: "https://github.com/warrmu01/VM252-Debugger",
 		label: "Assembly Language Debugger ",
 		handle: "Java | Java Swing",
-		Infopoint1 : "Review and provide constructive feedback on colleagues' research, which assisted them in improving the quality and accuracy of their work.",
+		Infopoint1 : "Developed a GUI-based debugger for assembly language programs.",
 
 	},
 	{
 		href: "https://sufyanpackages.com/",
 		label: "Sufyan Packages",
 		handle: "HTML | Javascript | CSS",
-		Infopoint1 : "Review and provide constructive feedback on colleagues' research, which assisted them in improving the quality and accuracy of their work.",
+		Infopoint1 : "Created a webiste for Sufyan Packages",
 
 	},
 	{
 		href: "https://github.com/warrmu01/Credit-Card-Fraud-Detection-Final-Project",
 		label: "Credit Card Fraud Detection Project",
 		handle: "Scikit-Learn | XGBoost | Deep Neural Networks | Python",
-		Infopoint1 : "Review and provide constructive feedback on colleagues' research, which assisted them in improving the quality and accuracy of their work.",
+		Infopoint1 : "Developed a system to detect fraudulent credit card transactions with high accuracy.",
 
 	},
 	{
 		href: "https://github.com/warrmu01/Hours-Analysis",
 		label: "Budget Allocation Analysis Project",
 		handle: "Scikit-Learn | Pandas | Matplotlob | Seaborn",
-		Infopoint1 : "Review and provide constructive feedback on colleagues' research, which assisted them in improving the quality and accuracy of their work.",
+		Infopoint1 : "Analyzed budget allocations to optimize costs and improve financial planning.",
 
 	},
 	{
 		href: "https://github.com/warrmu01/London-bike-ride-analysis",
 		label: "London Bike Rides Analysis",
 		handle: "Python | Pandas | Seaborn | Tableau",
-		Infopoint1 : "Review and provide constructive feedback on colleagues' research, which assisted them in improving the quality and accuracy of their work.",
+		Infopoint1 : "Analyzed bike ride data to uncover usage trends and visualize ride density for city planning.",
 
 	},
 ];
@@ -87,7 +87,7 @@ export default function Example() {
 						{s.Infopoint1}
 					  </span>
 					</div>
-					<div className="flex justify-center items-center mt-4">
+					{/* <div className="flex justify-center items-center mt-4">
 					  <p className="flex lg:text-xl md:text-xs text-sm text-purple">
 						Check Live Site
 					  </p>
@@ -105,7 +105,7 @@ export default function Example() {
 						  d="M5 12h14M12 5l7 7-7 7"
 						/>
 					  </svg>
-					</div>
+					</div> */}
 				  </Card>
 				</div>
 			  </Link>
