@@ -8,7 +8,7 @@ import {
 
 import { MouseEventHandler, PropsWithChildren } from "react";
 
-export const Card: React.FC<PropsWithChildren> = ({ children }) => {
+export const Cardx: React.FC<PropsWithChildren> = ({ children }) => {
 	const mouseX = useSpring(0, { stiffness: 500, damping: 100 });
 	const mouseY = useSpring(0, { stiffness: 500, damping: 100 });
 
@@ -23,7 +23,7 @@ export const Card: React.FC<PropsWithChildren> = ({ children }) => {
 	return (
 		<div
 			onMouseMove={onMouseMove}
-			className="overflow-hidden relative duration-900 border rounded-xl bg-black hover:bg-zinc-800/10 group md:gap-8 hover:border-zinc-400/50 border-zinc-400 w-full h-auto lg:h-56 p-10" // Adjusted width, height, and padding
+			className="overflow-hidden relative duration-900group md:gap-8 w-full h-auto lg:h-56 p-10" // Adjusted width, height, and padding
 		>
 			<div className="pointer-events-none">
 				<div className="absolute inset-0 z-0 transition duration-1000 [mask-image:linear-gradient(black,transparent)]" />

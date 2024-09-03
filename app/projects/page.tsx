@@ -1,8 +1,9 @@
 "use client";
 
 import { Navigation } from "../components/nav";
-import { Card } from "../components/projectsmaincard";
+import { Cardx } from "../components/projectsmaincard";
 import Link from "next/link";
+
 
 const projects = [
 	{
@@ -64,55 +65,51 @@ const projects = [
 
 export default function Example() {
 	return (
-	  <div className="bg-gradient-to-tl from-green-900/0 via-green-900 to-green-900/0">
+	  <div className="bg-gradient-to-tl from-green-900/0 via-green-950 to-green-900/0">
 		<Navigation />
-		<div className="container flex items-start justify-center min-h-screen px-4 mx-auto">
-		  <div className="flex flex-col w-full gap-8 mx-auto mt-32 sm:mt-15 mb-20 lg:gap-16">
+		<div className="container flex justify-center min-h-screen px-4 mx-auto">
+		  <div className="flex flex-col w-full gap-2 mx-auto mt-32 sm:mt-15 mb-20 lg:gap-">
 			{projects.map((s) => (
 			  <Link key={s.handle} href={s.href} passHref>
 				<div className="block cursor-pointer">
-				  <Card>
+				  <Cardx>
 					<span
 					  className="absolute w-px h-2/3 bg-gradient-to-b from-zinc-500 via-zinc-500/50 to-transparent"
 					  aria-hidden="true"
 					/>
-					<div className="z-10 flex flex-col items-center">
+					<div className="z-10 flex flex-col items-end">
 					  <span className="lg:text-xl font-medium duration-150 xl:text-3xl text-zinc-200 group-hover:text-white font-display">
 						{s.label}
 					  </span>
-					  <span className="mt-4 text-l text-center duration-1000 text-zinc-400 group-hover:text-zinc-200">
+					  <span className="mt-2 text-l text-right duration-1000 text-zinc-400 group-hover:text-zinc-200">
 						{s.handle}
 					  </span>
-					  <span className="mt-8 ml-5 text-sm md:text-base text-zinc-400 group-hover:text-zinc-200 list-disc list-inside">
+					  {/* <span className="mt-8 ml-5 text-sm md:text-base text-zinc-400 group-hover:text-zinc-200 list-disc list-inside">
 						{s.Infopoint1}
-					  </span>
+					  </span> */}
 					</div>
-					{/* <div className="flex justify-center items-center mt-4">
-					  <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-						Check Live Site
-					  </p>
-					  <svg
-						className="ml-3 w-4 h-4"
-						fill="none"
-						stroke="currentColor"
-						viewBox="0 0 24 24"
-						xmlns="http://www.w3.org/2000/svg"
-					  >
-						<path
-						  strokeLinecap="round"
-						  strokeLinejoin="round"
-						  strokeWidth="2"
-						  d="M5 12h14M12 5l7 7-7 7"
-						/>
-					  </svg>
-					</div> */}
-				  </Card>
+				  </Cardx>
 				</div>
 			  </Link>
 			))}
 		  </div>
 		</div>
 	  </div>
+// 	<Drawer>
+// 		<DrawerTrigger>Open</DrawerTrigger>
+// 		<DrawerContent>
+// 			<DrawerHeader>
+// 			<DrawerTitle>Are you absolutely sure?</DrawerTitle>
+// 			<DrawerDescription>This action cannot be undone.</DrawerDescription>
+// 			</DrawerHeader>
+// 			<DrawerFooter>
+// 			<Button>Submit</Button>
+// 			<DrawerClose>
+// 				<Button variant="outline">Cancel</Button>
+// 			</DrawerClose>
+// 			</DrawerFooter>
+// 		</DrawerContent>
+// 	</Drawer>
 	);
   }
 
