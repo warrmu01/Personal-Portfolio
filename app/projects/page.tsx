@@ -1,6 +1,7 @@
 "use client";
 
 import { Navigation } from "../components/nav";
+import Particles from "../components/particles";
 import { Cardx } from "../components/projectsmaincard";
 import Link from "next/link";
 
@@ -65,10 +66,14 @@ const projects = [
 
 export default function Example() {
 	return (
-	  <div className="bg-gradient-to-tl from-green-900/0 via-green-950 to-green-900/0">
+	  <div className="bg-gradient-to-tl from-black via-zinc-600/20 to-black">
 		<Navigation />
 		<div className="container flex justify-center min-h-screen px-4 mx-auto">
-		  <div className="flex flex-col w-full gap-2 mx-auto mt-32 sm:mt-15 mb-20 lg:gap-">
+		<Particles
+            className="absolute inset-0 -z-5"
+            quantity={500}
+          />
+		  <div className="flex flex-col w-full gap-2 mx-auto mt-32 sm:mt-15 mb-20 lg:gap-5">
 			{projects.map((s) => (
 			  <Link key={s.handle} href={s.href} passHref>
 				<div className="block cursor-pointer">
@@ -84,9 +89,6 @@ export default function Example() {
 					  <span className="mt-2 text-l text-right duration-1000 text-zinc-400 group-hover:text-zinc-200">
 						{s.handle}
 					  </span>
-					  {/* <span className="mt-8 ml-5 text-sm md:text-base text-zinc-400 group-hover:text-zinc-200 list-disc list-inside">
-						{s.Infopoint1}
-					  </span> */}
 					</div>
 				  </Cardx>
 				</div>
@@ -95,21 +97,6 @@ export default function Example() {
 		  </div>
 		</div>
 	  </div>
-// 	<Drawer>
-// 		<DrawerTrigger>Open</DrawerTrigger>
-// 		<DrawerContent>
-// 			<DrawerHeader>
-// 			<DrawerTitle>Are you absolutely sure?</DrawerTitle>
-// 			<DrawerDescription>This action cannot be undone.</DrawerDescription>
-// 			</DrawerHeader>
-// 			<DrawerFooter>
-// 			<Button>Submit</Button>
-// 			<DrawerClose>
-// 				<Button variant="outline">Cancel</Button>
-// 			</DrawerClose>
-// 			</DrawerFooter>
-// 		</DrawerContent>
-// 	</Drawer>
 	);
   }
 

@@ -23,7 +23,7 @@ export const Cardx: React.FC<PropsWithChildren> = ({ children }) => {
 	return (
 		<div
 			onMouseMove={onMouseMove}
-			className="overflow-hidden relative duration-900group md:gap-8 w-full h-auto lg:h-56 p-10" // Adjusted width, height, and padding
+			className="overflow-hidden relative duration-900group md:gap-8 w-full h-auto lg:h-44 p-9 bg-gradient-to-tl from-green-900/0 via-green-950 to-green-900/0" // Adjusted width, height, and padding
 		>
 			<div className="pointer-events-none">
 				<div className="absolute inset-0 z-0 transition duration-1000 [mask-image:linear-gradient(black,transparent)]" />
